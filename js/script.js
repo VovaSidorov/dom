@@ -1,6 +1,6 @@
-// let message = prompt("Как вы относитесь к технике apple?");
-// let messageBlock = document.querySelector('#prompt');
-// messageBlock.innerHTML = message;
+let message = prompt("Как вы относитесь к технике apple?");
+let messageBlock = document.querySelector('#prompt');
+messageBlock.innerHTML = message;
 
 let reklama = document.querySelector('.adv');
 reklama.remove();
@@ -18,11 +18,8 @@ elem5.textContent = elem5text;
 console.log(elem5);
 menu.appendChild(elem5);
 
-//
 itemsMenu = document.querySelectorAll('.menu-item');
 console.log(itemsMenu);
 menu.insertBefore(itemsMenu[2],itemsMenu[1]);
 
-// let body = document.getElementsByTagName('body');
-// console.log(body);
-// body.style.background = "blue";
+document.body.style.background = "url('img/apple_true.jpg') no-repeat right top";
